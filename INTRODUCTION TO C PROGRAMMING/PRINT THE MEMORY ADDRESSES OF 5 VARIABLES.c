@@ -1,0 +1,14 @@
+//WRITE A PROGRAM IN C TO PRINT THE MEMORY ADDRESSES OF 5 VARIABLES
+
+#include<stdio.h>
+int main()
+{
+int a=10,b=20, c=30, d=40, e=60;
+
+printf("%p\n",&a);
+printf("%p\n",&b);
+printf("%p\n",&c);
+printf("%p\n",&d);
+printf("%p\n",&e);
+}
+
